@@ -1,0 +1,1 @@
+This application implements CRUD operations in a .NET core application with entity framework using employee details like full name, employee code, position, office location etc. We are using entity framework core
