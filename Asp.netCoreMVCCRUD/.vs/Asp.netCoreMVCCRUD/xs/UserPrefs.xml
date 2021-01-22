@@ -1,18 +1,21 @@
 ﻿<Properties StartupConfiguration="{83BB395B-C944-4C47-A64F-7B029F6B125E}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Asp.netCoreMVCCRUD/Models/EmployeeContext.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Asp.netCoreMVCCRUD/Migrations/20210122223418_InitialCreate.cs">
     <Files>
-      <File FileName="Asp.netCoreMVCCRUD/Program.cs" Line="27" Column="1" />
+      <File FileName="Asp.netCoreMVCCRUD/Program.cs" Line="8" Column="36" />
       <File FileName="Asp.netCoreMVCCRUD/Startup.cs" />
-      <File FileName="Asp.netCoreMVCCRUD/Models/EmployeeContext.cs" Line="9" Column="6" />
+      <File FileName="Asp.netCoreMVCCRUD/Models/EmployeeContext.cs" Line="15" Column="1" />
+      <File FileName="Asp.netCoreMVCCRUD/Models/Employee.cs" Line="14" Column="11" />
+      <File FileName="Asp.netCoreMVCCRUD/Migrations/20210122223418_InitialCreate.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Asp.netCoreMVCCRUD" expanded="True">
             <Node name="Asp.netCoreMVCCRUD" expanded="True">
-              <Node name="Models" expanded="True">
-                <Node name="EmployeeContext.cs" selected="True" />
+              <Node name="Migrations" expanded="True">
+                <Node name="20210122223418_InitialCreate.cs" selected="True" />
               </Node>
+              <Node name="Models" expanded="True" />
             </Node>
           </Node>
         </State>
@@ -20,7 +23,7 @@
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.Asp.netCoreMVCCRUD FirstBuild="True" PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.ItemProperties.Asp.netCoreMVCCRUD PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />

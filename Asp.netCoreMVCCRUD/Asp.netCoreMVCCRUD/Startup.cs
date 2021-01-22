@@ -2,12 +2,16 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Asp.netCoreMVCCRUD.Models;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.SqlServer;
+
 
 namespace Asp.netCoreMVCCRUD
 {
@@ -25,6 +29,10 @@ namespace Asp.netCoreMVCCRUD
         {
             // this line of code makes this a MVC application
             services.AddControllersWithViews();
+            //dependency injection done here for DbContextOptions of type EmployeeContext
+            //this will create an instance of an employee context class.
+            services.AddDbContext<EmployeeContext>(options =>
+                        options.UseSqlServer(Configuration.GetConnectionString("DevConnection")));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
