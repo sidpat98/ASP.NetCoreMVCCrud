@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore.Migrations;
+//docker run -d --name ASPWebApp -e 'ACCEPT_EULA=Y' -e 'SA_PASSWORD=iitpowai' -p 1433:1433 microsoft/mssql-server-linux
 
 namespace Asp.netCoreMVCCRUD.Migrations
 {
