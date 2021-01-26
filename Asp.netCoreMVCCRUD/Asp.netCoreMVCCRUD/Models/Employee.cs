@@ -10,7 +10,7 @@ namespace Asp.netCoreMVCCRUD.Models
     public class Employee
     {
         [Key]
-        public int EmployeeId { get; set; }
+        public  int EmployeeId { get; set; }
         [Column(TypeName = "nvarchar(250)")]
         [Required(ErrorMessage = "This field is required.")]
         [DisplayName("Full Name")]

@@ -12,6 +12,6 @@ namespace Asp.netCoreMVCCRUD.Models
         }
 
         public DbSet<Employee> Employess { get; set; }
-
+        public object Employees { get; internal set; }
     }
 }

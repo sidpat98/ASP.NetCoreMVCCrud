@@ -2,11 +2,11 @@
   <MonoDevelop.Ide.Workbench ActiveDocument="Asp.netCoreMVCCRUD/Controllers/EmployeeController.cs">
     <Files>
       <File FileName="Asp.netCoreMVCCRUD/Program.cs" Line="4" Column="30" />
-      <File FileName="Asp.netCoreMVCCRUD/Startup.cs" />
+      <File FileName="Asp.netCoreMVCCRUD/Startup.cs" Line="68" Column="1" />
       <File FileName="Asp.netCoreMVCCRUD/Models/Employee.cs" Line="13" Column="16" />
-      <File FileName="Asp.netCoreMVCCRUD/Controllers/EmployeeController.cs" Line="48" Column="40" />
-      <File FileName="Asp.netCoreMVCCRUD/Views/Employee/AddOrEdit.cshtml" Line="51" Column="2" />
-      <File FileName="Asp.netCoreMVCCRUD/Views/Employee/Index.cshtml" />
+      <File FileName="Asp.netCoreMVCCRUD/Controllers/EmployeeController.cs" Line="70" Column="1" />
+      <File FileName="Asp.netCoreMVCCRUD/Views/Employee/AddOrEdit.cshtml" Line="46" Column="7" />
+      <File FileName="Asp.netCoreMVCCRUD/Views/Employee/Index.cshtml" Line="50" Column="13" />
       <File FileName="Asp.netCoreMVCCRUD/Views/Shared/_ValidationScriptsPartial.cshtml" Line="1" Column="1" />
     </Files>
     <Pads>
