@@ -1,26 +1,25 @@
 ﻿<Properties StartupConfiguration="{83BB395B-C944-4C47-A64F-7B029F6B125E}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Asp.netCoreMVCCRUD/Views/Employee/Index.cshtml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Asp.netCoreMVCCRUD/Controllers/EmployeeController.cs">
     <Files>
       <File FileName="Asp.netCoreMVCCRUD/Program.cs" Line="4" Column="30" />
-      <File FileName="Asp.netCoreMVCCRUD/Startup.cs" Line="35" Column="94" />
-      <File FileName="Asp.netCoreMVCCRUD/Models/Employee.cs" Line="10" Column="6" />
-      <File FileName="Asp.netCoreMVCCRUD/appsettings.json" Line="14" Column="1" />
+      <File FileName="Asp.netCoreMVCCRUD/Startup.cs" />
+      <File FileName="Asp.netCoreMVCCRUD/Models/Employee.cs" Line="13" Column="16" />
       <File FileName="Asp.netCoreMVCCRUD/Controllers/EmployeeController.cs" Line="48" Column="40" />
-      <File FileName="Asp.netCoreMVCCRUD/Views/Shared/_Layout.cshtml" Line="21" Column="7" />
       <File FileName="Asp.netCoreMVCCRUD/Views/Employee/AddOrEdit.cshtml" Line="51" Column="2" />
-      <File FileName="Asp.netCoreMVCCRUD/Views/Employee/Index.cshtml" Line="10" Column="21" />
+      <File FileName="Asp.netCoreMVCCRUD/Views/Employee/Index.cshtml" />
+      <File FileName="Asp.netCoreMVCCRUD/Views/Shared/_ValidationScriptsPartial.cshtml" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Asp.netCoreMVCCRUD" expanded="True">
             <Node name="Asp.netCoreMVCCRUD" expanded="True">
-              <Node name="Controllers" expanded="True" />
+              <Node name="Controllers" expanded="True">
+                <Node name="EmployeeController.cs" selected="True" />
+              </Node>
+              <Node name="Models" expanded="True" />
               <Node name="Views" expanded="True">
-                <Node name="Employee" expanded="True">
-                  <Node name="Index.cshtml" selected="True" />
-                </Node>
-                <Node name="Shared" expanded="True" />
+                <Node name="Employee" expanded="True" />
               </Node>
               <Node name="wwwroot" expanded="True">
                 <Node name="lib" expanded="True" />
@@ -28,9 +27,6 @@
             </Node>
           </Node>
         </State>
-      </Pad>
-      <Pad Id="MonoDevelop.Debugger.WatchPad">
-        <State />
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
